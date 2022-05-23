@@ -1,14 +1,36 @@
 body{
     color: #f9faf8;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 ul{
   list-style-type: none;
+  display: flex;
+  gap: 8px;
 }
 .header{
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
 }
+.logo{
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+.section1{
+    background-color: #1f2937;
+}
+.section3{
+    background-color: #E5E7EB;
+    color: #1f2937
+}
+.section2{
+    background-color: #3882f6;
 
+}
 .footer{
     background-color: #1f2937;
-    
+    display: flex;
 }
