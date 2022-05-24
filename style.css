@@ -15,22 +15,51 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+}
 .logo{
   font-size: 48px;
   font-weight: extra-bold;
 }
 .section1{
     background-color: #1f2937;
+    display: flex;
+}
+.introtext{
+    display:flex;
 }
 .section3{
     background-color: #E5E7EB;
-    color: #1f2937
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300 px;
+    outline-color: aqua;
+}
+.author{
+    flex: 1;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.header2{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
 }
 .section2{
     background-color: #3882f6;
-
+    display: flex;
+    justify-content: center;
 }
+.calltoaction{
+    display: flex;
+    flex-direction: column;
+}    
 .footer{
     background-color: #1f2937;
     display: flex;
+    justify-content: center;
 }
